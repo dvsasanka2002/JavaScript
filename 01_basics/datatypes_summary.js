@@ -36,12 +36,29 @@ const myFunc = function(){
 myFunc()
 
 // console.log(typeof myFunc);
-console.log(typeof bigNum)
-console.log(typeof bigint)
-console.log(typeof object)
-console.log(typeof number)
+// console.log(typeof bigNum)
+// console.log(typeof bigint)
+// console.log(typeof object)
+// console.log(typeof number)
 
 //**************************************************** */
 
 // Stack (Primitive)
 // Heap (Non Primitive)
+
+let myname = "Sasanka"
+
+let newName = myname
+newName = "Sas"
+// console.log(newName);
+// console.log(myname);
+
+let userOne = {
+    email : "sasanka2002@gmail.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne;
+userTwo.email = "Sasanka"
+
+console.log(userOne.email);
