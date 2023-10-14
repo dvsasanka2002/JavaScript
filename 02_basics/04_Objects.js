@@ -43,8 +43,22 @@ const users = [
 ]
 // console.log(users[0].email)
 
-console.log(Object.keys(tinder));
-console.log(Object.values(tinder));
-console.log(Object.entries(tinder));
+// console.log(Object.keys(tinder));
+// console.log(Object.values(tinder));
+// console.log(Object.entries(tinder));
 
-console.log(tinder.hasOwnProperty("id"))
+// console.log(tinder.hasOwnProperty("id"))
+
+// Destructering Objects
+
+const course = {
+    courseName  : "JS",
+    price : "99",
+    instructor : "Sasanka"
+}
+
+// const {instructor : i} = course // now instructor cant be used
+// console.log(i);
+
+
+//https://api.github.com/users/hiteshchoudhary
