@@ -23,6 +23,33 @@ let bool = Boolean(n)
 // console.log(bool)
 let s = 1
 let v =  String(s)
-console.log(typeof v)
-console.log(v)
+// console.log(typeof v)
+// console.log(v)
+// ************ Operations**********************
 
+let num = 3
+let neg = -num
+// console.log(neg);
+
+// console.log(2**3)
+
+let s1 = "Hi"
+let s2 = " Hello"
+// console.log(s1+s2)
+
+// console.table(
+//     [
+//         "1"+2,
+//         1+"2",
+//         "1"+2+2,
+//         1+2+"2"
+//     ]);
+// console.log(+true)
+// console.log(+"")
+let num1,num2,num3
+num1 = num2 = num3 = 2+2
+
+let cnt = 100
+// cnt++
+console.log(cnt++)
+console.log(++cnt)
