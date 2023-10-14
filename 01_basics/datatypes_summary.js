@@ -40,3 +40,8 @@ console.log(typeof bigNum)
 console.log(typeof bigint)
 console.log(typeof object)
 console.log(typeof number)
+
+//**************************************************** */
+
+// Stack (Primitive)
+// Heap (Non Primitive)
