@@ -46,7 +46,7 @@ function addOne(num)
 {
     return num+1
 }
-console.log(addTwo(5)); // This Gives Error
+// console.log(addTwo(5)); // This Gives Error
 const addTwo = function(num)
 {
     return num +2
