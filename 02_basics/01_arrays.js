@@ -20,7 +20,8 @@ const myArr2 = new Array(1,2,3)
 // console.log(myArr.includes(0))
 // console.log(myArr.indexOf(3))
 
-// const newArr  = myArr.join()
+// const newArr  = myArr.join()// Converts into string sep by commas
+// console.log(myArr);
 // console.log(newArr);
 // console.log(typeof newArr)
 
