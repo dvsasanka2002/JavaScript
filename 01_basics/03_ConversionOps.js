@@ -45,11 +45,11 @@ let s2 = " Hello"
 //         1+2+"2"
 //     ]);
 // console.log(+true)
-// console.log(+"")
+// console.log(+"")// Converts to int and gives the value
 let num1,num2,num3
 num1 = num2 = num3 = 2+2
 
 let cnt = 100
 // cnt++
-console.log(cnt++)
-console.log(++cnt)
+// console.log(cnt++)
+// console.log(++cnt)
