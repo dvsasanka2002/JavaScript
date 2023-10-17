@@ -7,4 +7,19 @@
 <body style="background-color: #212121; color: #fff">
     
 </body>
+<script>
+    const div = document.createElement('div')
+    div.className = "main"
+    div.id = Math.floor(Math.random()*10+1)
+    div.setAttribute("title", "Sasanka")
+    div.style.backgroundColor="green"
+    div.style.padding="10px"
+    // div.innerText="Youtube"// This is generally not efficient
+    //Hence we use the below
+    const addText = document.createTextNode("Youtube")
+    div.appendChild(addText)
+    console.log(div);
+
+    document.body.appendChild(div)
+</script>
 </html>
